@@ -1,0 +1,90 @@
+# Python 바이트 컴파일 / 최적화 / DLL 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 확장
+*.so
+
+# 배포 / 패키징
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 인스톨러 로그
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 단위 테스트 / 커버리지 리포트
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# 환경
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Spyder 프로젝트 설정
+.spyderproject
+.spyproject
+
+# Rope 프로젝트 설정
+.ropeproject
+
+# mkdocs 문서
+/site
+
+# mypy
+.mypy_cache/
+
+# IDE 설정
+.idea/
+.vscode/
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# virtual env
+/bin
+/lib
+/include
+
