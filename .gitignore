@@ -84,7 +84,7 @@ ENV/
 Thumbs.db
 
 # virtual env
-/bin
-/lib
-/include
+bin/
+lib/
+include/
 
